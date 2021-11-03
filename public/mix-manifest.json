@@ -1,0 +1,14 @@
+{
+    "/js/administration_warehouse_room_sensors.js": "/js/administration_warehouse_room_sensors.js",
+    "/js/administration_warehouse_room_sensors_alerts.js": "/js/administration_warehouse_room_sensors_alerts.js",
+    "/js/administration_warehouse_rooms.js": "/js/administration_warehouse_rooms.js",
+    "/js/administration_warehouses.js": "/js/administration_warehouses.js",
+    "/js/alerts.js": "/js/alerts.js",
+    "/js/app.js": "/js/app.js",
+    "/js/monitoring.js": "/js/monitoring.js",
+    "/js/reports.js": "/js/reports.js",
+    "/js/sidebar_alerts.js": "/js/sidebar_alerts.js",
+    "/css/app.css": "/css/app.css",
+    "/css/login.css": "/css/login.css",
+    "/css/main.css": "/css/main.css"
+}

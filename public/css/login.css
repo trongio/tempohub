@@ -1,0 +1,167 @@
+@import url(//cdn.web-fonts.ge/fonts/bpg-arial-caps/css/bpg-arial-caps.min.css);html,
+body,
+#app {
+  height: 100%;
+}
+
+html .main_container,
+body .main_container,
+#app .main_container {
+  font-family: "BPG Arial Caps", sans-serif;
+  height: 100%;
+  padding: 0;
+  padding-right: 15px;
+}
+
+html .main_container .row,
+body .main_container .row,
+#app .main_container .row {
+  height: 100%;
+}
+
+html .main_container .row .left_container,
+body .main_container .row .left_container,
+#app .main_container .row .left_container {
+  background-color: #0d1e41;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "arial-bold";
+  background-image: url("/images/login/warehouse.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html .main_container .row .right_container,
+body .main_container .row .right_container,
+#app .main_container .row .right_container {
+  background-color: white;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html .main_container .row .right_container .login_wrapper,
+body .main_container .row .right_container .login_wrapper,
+#app .main_container .row .right_container .login_wrapper {
+  padding: 25%;
+}
+
+html .main_container .row .right_container .login_wrapper .login_logo_wrapper,
+body .main_container .row .right_container .login_wrapper .login_logo_wrapper,
+#app .main_container .row .right_container .login_wrapper .login_logo_wrapper {
+  margin-bottom: 20px;
+  font-family: "arial-bold";
+  font-size: 60px;
+  color: #0d1e41;
+  text-align: center;
+  background-image: url("/images/tempohub_logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 70px;
+}
+
+html .main_container .row .right_container .login_wrapper .login_form_wrapper .form-group,
+html .main_container .row .right_container .login_wrapper .login_form_wrapper .input-group,
+body .main_container .row .right_container .login_wrapper .login_form_wrapper .form-group,
+body .main_container .row .right_container .login_wrapper .login_form_wrapper .input-group,
+#app .main_container .row .right_container .login_wrapper .login_form_wrapper .form-group,
+#app .main_container .row .right_container .login_wrapper .login_form_wrapper .input-group {
+  margin-bottom: 20px;
+}
+
+html .main_container .row .right_container .login_wrapper .login_form_wrapper .form-group .input-group-text,
+html .main_container .row .right_container .login_wrapper .login_form_wrapper .input-group .input-group-text,
+body .main_container .row .right_container .login_wrapper .login_form_wrapper .form-group .input-group-text,
+body .main_container .row .right_container .login_wrapper .login_form_wrapper .input-group .input-group-text,
+#app .main_container .row .right_container .login_wrapper .login_form_wrapper .form-group .input-group-text,
+#app .main_container .row .right_container .login_wrapper .login_form_wrapper .input-group .input-group-text {
+  display: flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #0d1e41;
+  text-align: center;
+  white-space: nowrap;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 0;
+  border-bottom: 2px solid #0d1e41;
+  padding: 0;
+}
+
+html .main_container .row .right_container .login_wrapper .login_form_wrapper .form-group .input-group-text i,
+html .main_container .row .right_container .login_wrapper .login_form_wrapper .input-group .input-group-text i,
+body .main_container .row .right_container .login_wrapper .login_form_wrapper .form-group .input-group-text i,
+body .main_container .row .right_container .login_wrapper .login_form_wrapper .input-group .input-group-text i,
+#app .main_container .row .right_container .login_wrapper .login_form_wrapper .form-group .input-group-text i,
+#app .main_container .row .right_container .login_wrapper .login_form_wrapper .input-group .input-group-text i {
+  font-size: 25px;
+}
+
+html .main_container .row .right_container .login_wrapper .login_form_wrapper .form-group .login_button,
+html .main_container .row .right_container .login_wrapper .login_form_wrapper .input-group .login_button,
+body .main_container .row .right_container .login_wrapper .login_form_wrapper .form-group .login_button,
+body .main_container .row .right_container .login_wrapper .login_form_wrapper .input-group .login_button,
+#app .main_container .row .right_container .login_wrapper .login_form_wrapper .form-group .login_button,
+#app .main_container .row .right_container .login_wrapper .login_form_wrapper .input-group .login_button {
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  background-color: #0d1e41;
+  border-color: #0d1e41;
+}
+
+html .main_container .row .right_container .login_wrapper .login_form_wrapper .form-group .login_button:hover,
+html .main_container .row .right_container .login_wrapper .login_form_wrapper .input-group .login_button:hover,
+body .main_container .row .right_container .login_wrapper .login_form_wrapper .form-group .login_button:hover,
+body .main_container .row .right_container .login_wrapper .login_form_wrapper .input-group .login_button:hover,
+#app .main_container .row .right_container .login_wrapper .login_form_wrapper .form-group .login_button:hover,
+#app .main_container .row .right_container .login_wrapper .login_form_wrapper .input-group .login_button:hover {
+  background-color: #0d1e41;
+  border-color: #0d1e41;
+}
+
+html .main_container .row .right_container .login_wrapper .login_form_wrapper .form-group .input,
+html .main_container .row .right_container .login_wrapper .login_form_wrapper .input-group .input,
+body .main_container .row .right_container .login_wrapper .login_form_wrapper .form-group .input,
+body .main_container .row .right_container .login_wrapper .login_form_wrapper .input-group .input,
+#app .main_container .row .right_container .login_wrapper .login_form_wrapper .form-group .input,
+#app .main_container .row .right_container .login_wrapper .login_form_wrapper .input-group .input {
+  border: 0;
+  border-radius: 0;
+  height: 50px;
+  color: black;
+  border-bottom: 2px solid #0d1e41;
+}
+
+html .main_container .row .right_container .login_wrapper .login_form_wrapper .form-group .input:focus,
+html .main_container .row .right_container .login_wrapper .login_form_wrapper .input-group .input:focus,
+body .main_container .row .right_container .login_wrapper .login_form_wrapper .form-group .input:focus,
+body .main_container .row .right_container .login_wrapper .login_form_wrapper .input-group .input:focus,
+#app .main_container .row .right_container .login_wrapper .login_form_wrapper .form-group .input:focus,
+#app .main_container .row .right_container .login_wrapper .login_form_wrapper .input-group .input:focus {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+@media (max-width: 991.98px) {
+  .left_container {
+    display: none !important;
+  }
+
+  .login_wrapper {
+    width: 90% !important;
+  }
+}
+
